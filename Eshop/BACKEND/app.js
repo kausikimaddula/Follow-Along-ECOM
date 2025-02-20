@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 app.use(express.json());
 
-const {userRoute} = require("./Controllers/UserRoutes")
+const {userRoute} = require("./Controllers/userRoute")
 
 app.get("/test", async (req, res) => {
   res.send("hello.....");
